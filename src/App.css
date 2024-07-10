@@ -11,6 +11,7 @@
     border-radius:10px;
     background-color:#03045e;
     margin:auto;
+    transform:translateY(5%);
 }
 .display{
     width:100%;
@@ -21,6 +22,7 @@
     border:1px solid white;
     font-size: 2.5rem;
     color:white;
+    padding:5px;
 }
 
 .buttons-container{
@@ -38,4 +40,34 @@
     background-color:blueviolet;
     color:white;
     font-size: 20px;
+}
+
+.equal{
+    background-color: crimson;
+    width:36%;
+}
+
+@media screen and (max-width:400px){
+    .display{
+        height:18vh;
+    }
+    .button{
+        height:14vh;
+    }
+}
+
+@media screen and (max-width:320px){
+    .buttons-container{
+        gap:1vw;
+    }
+    .button{
+        width:30%;
+        height:15vh;
+    }
+}
+
+@media screen and (max-width:285px){
+    .button{
+        height:17vh;
+    }
 }
